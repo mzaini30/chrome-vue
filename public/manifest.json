@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Zenia",
+    "description": "Berbagai tools yang dibuat oleh Zen",
+    "version": "0.0.1",
+    "icons": {
+        "128": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {}
+}

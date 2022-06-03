@@ -17,6 +17,7 @@ specifiers:
   vite-plugin-vue-layouts: ^0.6.0
   vite-plugin-yaml2: ^0.0.4
   vue: ^3.2.25
+  vue-lazyload: 3.0.0-rc.2
   vue-router: ^4.0.15
   vue-router-prefetch: '2'
 
@@ -35,6 +36,7 @@ dependencies:
   vite-plugin-vue-layouts: 0.6.0_husqietd6xoepun2tc4v73afle
   vite-plugin-yaml2: 0.0.4
   vue: 3.2.33
+  vue-lazyload: 3.0.0-rc.2
   vue-router: 4.0.15_vue@3.2.33
   vue-router-prefetch: 2.0.2_ofvjdm2rlvp4kiklsgtgpezcmi
 
@@ -2238,6 +2240,10 @@ packages:
       rollup: 2.72.1
     optionalDependencies:
       fsevents: 2.3.2
+
+  /vue-lazyload/3.0.0-rc.2:
+    resolution: {integrity: sha512-Cg7Gqb7jAoiImMPH3EMfAwJ8gZuFoBJCEtA7+TGRljrtktDtV7JAHIyKvuTgQR8DFAd7MhKi1Ys8QHdSrnGdZQ==}
+    dev: false
 
   /vue-router-prefetch/2.0.2_ofvjdm2rlvp4kiklsgtgpezcmi:
     resolution: {integrity: sha512-k2fYX0CjWySSySgbJsGHaF1O0FR75NQMuwgBYfZtiymGWMe9zaKoOnp6cgMy+4e6nDeQKCY6duBy0swOx6jRGA==}
