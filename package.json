@@ -14,7 +14,7 @@
     "markdown-it-prism": "^2.2.4",
     "prism-theme-vars": "^0.2.2",
     "unocss": "^0.34.1",
-    "vite-plugin-md": "^0.13.1",
+    "vite-plugin-md": "^0.14.0",
     "vite-plugin-pages": "^0.23.0",
     "vite-plugin-vue-inspector": "^1.0.1",
     "vite-plugin-vue-layouts": "^0.6.0",
