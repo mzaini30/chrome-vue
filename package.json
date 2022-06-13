@@ -18,7 +18,7 @@
     "vite-plugin-pages": "^0.23.0",
     "vite-plugin-vue-inspector": "^1.0.1",
     "vite-plugin-vue-layouts": "^0.6.0",
-    "vite-plugin-yaml2": "^0.0.4",
+    "vite-plugin-yaml2": "^0.1.0",
     "vue": "^3.2.25",
     "vue-lazyload": "3.0.0-rc.2",
     "vue-router": "^4.0.15",
