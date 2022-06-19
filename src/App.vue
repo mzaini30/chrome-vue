@@ -3,7 +3,7 @@
 </template>
 
 <style>
-  * {
-    @apply text-base
-  }
+* {
+  @apply text-base;
+}
 </style>
