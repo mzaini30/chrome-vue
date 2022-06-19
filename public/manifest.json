@@ -1,13 +1,14 @@
 {
-    "manifest_version": 3,
-    "name": "Zenia",
-    "description": "Berbagai tools yang dibuat oleh Zen",
-    "version": "0.0.1",
-    "icons": {
-        "128": "icon.png"
-    },
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {}
+  "name": "Zenia",
+  "description": "Berbagai tools yang dibuat oleh Zen",
+  "icons": {
+    "128": "icon.png"
+  },
+  "version": "0.0.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {},
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 'unsafe-eval'; connect-src *; style-src * 'unsafe-inline' 'self' blob:; img-src * data:; font-src *;"
 }
