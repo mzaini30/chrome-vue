@@ -3,17 +3,27 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "tsx script/copyIndex.ts && vite",
+    "build": "vite build && tsx script/removeCsp.ts",
+    "preview": "vite preview",
+    "prettier": "prettier --write src/**/*.{ts,js,vue,css} index.html",
+    "release": "bumpp --tag --commit --push"
   },
-  "dependencies": {
+  "simple-git-hooks": {
+    "pre-commit": "npm run prettier"
+  },
+  "devDependencies": {
     "@unocss/reset": "^0.35.0",
     "@unocss/transformer-directives": "^0.35.1",
+    "@vitejs/plugin-vue": "^2.3.1",
     "@vueuse/head": "^0.7.6",
+    "bumpp": "^8.2.1",
     "markdown-it-prism": "^2.2.4",
+    "prettier": "^2.7.1",
     "prism-theme-vars": "^0.2.2",
+    "tsx": "^3.4.3",
     "unocss": "^0.34.1",
+    "vite": "^2.9.7",
     "vite-plugin-md": "^0.13.1",
     "vite-plugin-pages": "^0.23.0",
     "vite-plugin-vue-inspector": "^1.0.1",
@@ -23,9 +33,5 @@
     "vue-lazyload": "3.0.0-rc.2",
     "vue-router": "^4.0.15",
     "vue-router-prefetch": "2"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.1",
-    "vite": "^2.9.7"
   }
 }
