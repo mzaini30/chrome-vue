@@ -1,7 +1,7 @@
 {
   "name": "coba-vite-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "tsx script/copyIndex.ts && vite",
     "build": "vite build && tsx script/removeCsp.ts",
