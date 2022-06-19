@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(({ reason, version }) => {
   }
 });
 
-chrome.action.onClicked.addListener((tab) => {
+chrome.browserAction.onClicked.addListener((tab) => {
   showReadme();
 });
 
